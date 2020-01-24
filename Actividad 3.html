@@ -1,0 +1,13 @@
+<script>
+    var arreglo = [14, -23, 8, 60, 1, 20, 300, -44, 28, 100];
+    
+    function replaceNumber(arreglo){
+        for(var i=0; i<arreglo.length; i++){
+            if(arreglo[i]<0){
+                arreglo[i]="Dojo";
+            }
+        }
+        return arreglo;
+    }
+    console.log(replaceNumber(arreglo));
+</script>

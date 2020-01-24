@@ -1,0 +1,20 @@
+<script>
+    //promedio = 55,2
+    var arreglo1 = [14, -23, 8, 60, 1, 20, 300, 44, 28, 100];
+    var min = arreglo1[0];
+    var max = arreglo1[0];
+    var suma = arreglo1[0];
+    
+    for(var i=0; i<arreglo1.length; i++){
+         if(arreglo1[i]<min){
+             min = arreglo1[i];
+         }
+         if(arreglo1[i]>max){
+             max = arreglo1[i];
+         }
+         suma = suma + arreglo1[i];
+    }
+    console.log(min);
+    console.log(max);
+    console.log(suma/arreglo1.length);
+</script>
